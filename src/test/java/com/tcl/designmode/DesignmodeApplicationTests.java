@@ -11,6 +11,7 @@ public class DesignmodeApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.print("good thing!");
 	}
 
 }
