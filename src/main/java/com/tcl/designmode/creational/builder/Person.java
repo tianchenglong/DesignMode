@@ -6,6 +6,8 @@ import java.util.Objects;
 
 /**
  *
+ *  （类/模板）
+ *
  *  要创建的对象的一个类（假定这里的每个属性都必须赋值，否则就不能用）
  * @author: chenglong.tian@foxmail.com
  * <p>

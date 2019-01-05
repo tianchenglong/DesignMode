@@ -1,7 +1,7 @@
 package com.tcl.designmode.creational.builder;
 
 /**
- *
+ *  （实体对象）
  *  创建一个person 对象
  *
  * @author: chenglong.tian@foxmail.com

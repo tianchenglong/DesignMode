@@ -2,7 +2,7 @@ package com.tcl.designmode.creational.builder;
 
 /**
  *
- * 指挥类
+ * 指挥类(实施人员)
  *
  * 把创建一个person 对象的步骤统一管理，防止漏掉，导致对象不完整
  *
@@ -17,7 +17,7 @@ public class Director {
      *  把person所需的每个创建方法都统一放在一下，防止遗漏
      * @param builder
      */
-    public void CreatePerson(Builder builder){
+    public void executePerson(Builder builder){
         builder.setAge();
         builder.setHeight();
         builder.setName();

@@ -22,11 +22,11 @@ public class test {
         Director director = new Director();
         ConcreateBuilderA a = new ConcreateBuilderA();
         ConcreateBuilderB b = new ConcreateBuilderB();
-        director.CreatePerson(a);
+        director.executePerson(a);
 
         System.out.println(a.createPerson().toString());
 
-        director.CreatePerson(b);
+        director.executePerson(b);
 
         System.out.println(b.createPerson().toString());
 
