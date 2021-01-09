@@ -7,9 +7,9 @@ package com.tcl.designmode.behavioral.strategy;
  * Version: 1.0
  **/
 public class Test {
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
-      StrategyContext strategyContext = new StrategyContext(new Cat());
-      strategyContext.doSomeThing();
-  }
+        StrategyContext strategyContext = new StrategyContext(new Cat());
+        strategyContext.doSomeThing();
+    }
 }
