@@ -8,6 +8,12 @@ package com.tcl.designmode;
  **/
 public class test {
     public static void main(String [] args){
+        test();
+
+
+    }
+
+    private static void test() {
         Integer a =1;
         Integer b =2;
         Integer c =3;
@@ -21,8 +27,5 @@ public class test {
         System.out.println(c.equals(a+b));
         System.out.println(g==(a+b));
         System.out.println(g.equals(a+b));
-
-
-
     }
 }

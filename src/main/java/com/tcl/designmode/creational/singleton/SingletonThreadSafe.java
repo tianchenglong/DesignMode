@@ -3,6 +3,8 @@ package com.tcl.designmode.creational.singleton;
 /**
  *  单例模式   ------ 线程安全(双重检查锁)
  *
+ *  双重检查锁，减少了没必要的获取和释放锁操作
+ *
  *  Singleton mode .
  *
  *  The class is thread safe.
