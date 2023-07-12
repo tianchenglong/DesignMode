@@ -127,7 +127,7 @@
     4、深入了解业务逻辑，拒绝盲从。
  
 
-### 5. 迪克特法则（最少知道原则）（Least Knowledge Principle，LKP）
+### 5. 迪米特法则（最少知道原则）（Least Knowledge Principle，LKP）
 
 #### 定义：
     一个对象应该对其他对象有最少的了解（低耦合）。
